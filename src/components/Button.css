@@ -1,0 +1,63 @@
+.button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.primary {
+  background-color: #FEDA11;
+  color: black;
+}
+.primary:hover {
+  background-color: #FFCE12;
+}
+
+.normal {
+  background-color: white;
+  outline: 1px solid  #CCC;
+  outline-offset: -1px;
+  color: black;
+}
+.normal:hover {
+  background-color: #F1F1F1;
+  outline: 1px solid  #CCC;
+  outline-offset: -1px;
+}
+
+.tertiary {
+  background-color: white;
+  outline: 1px solid  #666;
+  outline-offset: -1px;
+  color: black;
+}
+.tertiary:hover {
+  background-color: #F1F1F1;
+  outline: 1px solid  #666;
+  outline-offset: -1px;
+}
+
+
+
+.square {
+  border-radius: 8px;
+}
+.round {
+  border-radius: 30px;
+}
+
+.button.small {
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.button.medium {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.button.large {
+  padding: 12px 25px;
+  font-size: 18px;
+}
