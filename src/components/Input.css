@@ -1,0 +1,112 @@
+.input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+.input::placeholder {
+  color: #999;
+  opacity: 1; /* Firefoxでの透過を無効にする */
+}
+
+
+
+.blank {
+  border: 1px solid #999;
+}
+
+.placeholder {
+    
+}
+
+.string {
+    color: #333;
+}
+
+.checklabel {
+
+}
+
+.default {
+
+}
+
+.focus {
+    background-color: #F7FDFF;
+    outline: #C8F3FA 3px solid;
+}
+
+.error {
+  border: 3px solid #BA0933;
+  outline: none;
+}
+
+/* ヘルパーテキストのコンテナ */
+.helper-text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+/* ヘルパーテキストのスタイル */
+.helper-text {
+  font-size: 14px;
+}
+
+.helper-text.success {
+  color: green;
+}
+
+.helper-text.error {
+  color: red;
+}
+
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.25rem;
+  fill: currentColor;
+}
+
+.check-icon {
+  color: #22c55e;
+}
+
+.error-icon {
+  color: #ef4444;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.helper-text-container {
+  display: flex!important;
+  align-items: center!important;
+  margin-top: .5rem!important;
+  font-size: 13px;
+  
+}
+
+.helper-text-container.focus,
+.helper-text-container.error {
+  outline: none;
+  border: none;
+  background: none;
+  line-height: 1.5;
+}
+
+.helper-text {
+  font-size: 0.875rem;
+}
+
+.helper-text-container.focus span {
+  color: green;
+}
+.helper-text-container.error span {
+  color: red;
+}
